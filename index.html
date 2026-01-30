@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vrijesh Sathish Poojary | RVCE Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="blob-bg"></div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">VJ<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li class="nav-divider"></li>
+                <li><a href="#academics">Academics</a></li>
+                <li class="nav-divider"></li>
+                <li><a href="#projects">Projects</a></li>
+                <li class="nav-divider"></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="nav-divider thick"></li> 
+                <li><button id="theme-toggle" title="Toggle Mode"><i class="fa-solid fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <button id="backToTop" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <header id="home">
+        <div class="hero" data-aos="zoom-out-up">
+            <div class="profile-wrapper">
+                <div class="profile-container">
+                    <img src="profile.jpg" alt="Vrijesh Poojary" class="profile-img">
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="floating-badge">Hey!</div>
+            </div>
+            <h1 class="gradient-text">Vrijesh Sathish Poojary</h1>
+            <p class="tagline">Electronics & Communication • RVCE</p>
+            <p class="bio">1st Year Engineering Student. <br> <i>Exploring Things....</i></p>          
+        </div>
+    </header>
+
+    <section id="academics">
+        <h2 class="section-title" data-aos="fade-right">Academic Journey</h2>
+        <div class="stats-container">
+            <a href="https://saecstate.com" target="_blank" class="premium-card-link">
+                <div class="stat-card curvy" data-aos="fade-up">
+                    <div class="visit-top-right"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                    <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <span class="year-label">Secondary</span>
+                    <h3>SSLC</h3>
+                    <p class="institution">Sree Ayyappa Education Centre STATE</p>
+                    <div class="score-pill">97.76%</div>
+                </div>
+            </a>
+
+            <a href="https://share.google/1ZWahf2DGUuOf8t0p" target="_blank" class="premium-card-link">
+                <div class="stat-card curvy" data-aos="fade-up" data-aos-delay="100">
+                    <div class="visit-top-right"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                    <div class="card-icon"><i class="fa-solid fa-book-open"></i></div>
+                    <span class="year-label">Pre-University</span>
+                    <h3>II PUC (PCMC)</h3>
+                    <p class="institution">Soundarya Composite College</p>
+                    <div class="score-pill">96.16%</div>
+                </div>
+            </a>
+
+            <div class="stat-card curvy" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-icon"><i class="fa-solid fa-award"></i></div>
+                <h3>Entrance Exams</h3>
+                <div class="rank-details">
+                    <p>KCET: <span class="gold-text">2030</span></p>
+                    <p>JEE: <span class="gold-text">92.57%le</span></p>
+                </div>
+            </div>
+
+            <a href="https://rvce.edu.in" target="_blank" class="premium-card-link">
+                <div class="stat-card curvy" data-aos="fade-up" data-aos-delay="300">
+                    <div class="visit-top-right"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                    <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <span class="year-label">Bachelor Of Engineering</span>
+                    <h3>RVCE</h3>
+                    <p class="institution">Electronics & Communication</p>
+                    <div class="score-pill">I Year</div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title" data-aos="fade-right">Projects</h2>
+        <div class="project-card-premium" data-aos="fade-up">
+            <div class="project-visual">
+                <div class="image-slider">
+                    <img src="carcompass.jpg" alt="CarCompass 1" class="slider-img clickable-img">
+                    <img src="carcompass2.jpg" alt="CarCompass 2" class="slider-img clickable-img">
+                    <img src="carcompass3.jpg" alt="CarCompass 3" class="slider-img clickable-img">
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+                </div>
+                <div class="visual-hint-pill">
+                    <i class="fa-solid fa-expand"></i> <span>Click to enlarge • Swipe for more</span>
+                </div>
+            </div>
+            <div class="project-info">
+                <div class="project-header">
+                    <span class="project-category">Smart Parking Finder</span>
+                    <h3 class="project-title">CarCompass</h3>
+                </div>
+                <div class="project-body">
+                    <p class="main-desc">This project aims to solve the problem of people when they struggle to locate their parked vehicles in large or shifting parking areas.</p>
+                    <p class="secondary-desc">The primary objective is to use <strong>OCR-based number plate detection</strong> and slot indication to pinpoint a vehicle's position and guide the user to it. This solution is relevant to modern smart-city systems, offering improved convenience and management.</p>
+                </div>
+                <div class="tech-stack-curvy">
+                    <span>ESP32-CAM</span><span>Arduino IDE</span><span>OCR Tech</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-wrap" data-aos="fade-up">
+            <h2 class="footer-title">Let's Connect!</h2>
+            <div class="social-pills">
+                <a href="mailto:vrijeshpoojary02@gmail.com" title="Email Me"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/vrijesh-poojary-6bb881383" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://youtube.com/@vjspace-02" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/vrijesh_poojary_" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">© 2026 Vrijesh Sathish Poojary</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1200, once: true });
+
+        // Smooth Scroll Logic for Nav Links
+        document.querySelectorAll('.nav-links a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href');
+                if(targetId.startsWith("#")) {
+                    e.preventDefault();
+                    const targetElement = document.querySelector(targetId);
+                    const navHeight = document.querySelector('.navbar').offsetHeight;
+                    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        const themeToggle = document.getElementById('theme-toggle');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const icon = themeToggle.querySelector('i');
+            icon.classList.toggle('fa-moon');
+            icon.classList.toggle('fa-sun');
+        });
+
+        const btt = document.getElementById("backToTop");
+        window.onscroll = () => {
+            const quarterPage = document.documentElement.scrollHeight / 4;
+            if (window.scrollY > quarterPage) {
+                btt.style.display = "flex";
+                setTimeout(() => btt.style.opacity = "1", 10);
+            } else {
+                btt.style.opacity = "0";
+                setTimeout(() => btt.style.display = "none", 300);
+            }
+        };
+        btt.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        const slider = document.querySelector('.image-slider');
+        const dots = document.querySelectorAll('.dot');
+        slider.addEventListener('scroll', () => {
+            const idx = Math.round(slider.scrollLeft / slider.offsetWidth);
+            dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+        });
+
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        document.querySelectorAll('.clickable-img').forEach(img => {
+            img.onclick = function() { lightbox.style.display = "flex"; lightboxImg.src = this.src; }
+        });
+        document.querySelector('.close-lightbox').onclick = () => lightbox.style.display = "none";
+        lightbox.onclick = (e) => { if(e.target !== lightboxImg) lightbox.style.display = "none"; }
+    </script>
+</body>
+</html>
